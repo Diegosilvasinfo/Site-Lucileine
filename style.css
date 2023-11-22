@@ -46,6 +46,7 @@ nav {
   width: 100vw;
 }
 nav > a {
+  font-size: small;
   overflow: hidden;
   display: inline-block;
   text-decoration: none;
