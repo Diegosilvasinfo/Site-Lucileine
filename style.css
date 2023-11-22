@@ -8,15 +8,29 @@ body {
   width: 100vw;
 }
 header {
+  padding-top: 30px;
+  padding-bottom: 0px;
   display: block;
   border: 1px solid pink;
   height: 10vh;
   width: 100vw;
   box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.06);
 }
+header > #menu {
+  display: inline;
+  text-align: left;
+}
+header > #menu:hover {
+  cursor: pointer;
+  color: rgb(200, 117, 131);
+}
 header > h1 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  margin: 0px;
+  display: inline-block;
   width: 100vw;
-  margin-top: 20px;
   text-align: center;
   font-size: small;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -42,4 +56,7 @@ nav > a:hover {
 }
 nav > a.a2 {
   margin-left: 20px;
+}
+nav > a.a1 {
+  margin-left: 10px;
 }
